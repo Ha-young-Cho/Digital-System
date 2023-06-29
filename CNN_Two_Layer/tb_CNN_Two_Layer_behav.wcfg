@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_CNN_Two_Layer_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_CNN_Two_Layer" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="577.069 ns"></ZoomEndTime>
+      <Cursor1Time time="72.205 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="147"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wvobject type="divider" fp_name="divider363">
+      <obj_property name="label">Testbench - Stimuli</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Image" type="array">
+      <obj_property name="ElementShortName">Image[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Image[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Filter1" type="array">
+      <obj_property name="ElementShortName">Filter1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Filter1[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider364">
+      <obj_property name="label">Layer 1 Multiplicator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer1/Multiplicator/din0" type="array">
+      <obj_property name="ElementShortName">din0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">din0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer1/Multiplicator/din1" type="array">
+      <obj_property name="ElementShortName">din1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">din1[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer1/Multiplicator/dout" type="array">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider366">
+      <obj_property name="label">Layer 1 Register File</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer1/RegisterFile/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer1/RegisterFile/reg_file" type="array">
+      <obj_property name="ElementShortName">reg_file[0:14][7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[0:14][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer1/RegisterFile/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer1/RegisterFile/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer1/RegisterFile/ReadData3" type="array">
+      <obj_property name="ElementShortName">ReadData3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData3[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider375">
+      <obj_property name="label">Layer 1 ADDER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer1/ADDER/data1" type="array">
+      <obj_property name="ElementShortName">data1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer1/ADDER/data2" type="array">
+      <obj_property name="ElementShortName">data2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data2[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer1/ADDER/data3" type="array">
+      <obj_property name="ElementShortName">data3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data3[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer1/ADDER/out" type="array">
+      <obj_property name="ElementShortName">out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">out[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider382">
+      <obj_property name="label">Layer 1 ReLU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer1/ReLU/d_in" type="array">
+      <obj_property name="ElementShortName">d_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">d_in[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer1/ReLU/d_out" type="array">
+      <obj_property name="ElementShortName">d_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">d_out[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider383">
+      <obj_property name="label">Layer 2 Multiplicator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer2/Multiplicator/din0" type="array">
+      <obj_property name="ElementShortName">din0[9:0]</obj_property>
+      <obj_property name="ObjectShortName">din0[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer2/Multiplicator/din1" type="array">
+      <obj_property name="ElementShortName">din1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">din1[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer2/Multiplicator/dout" type="array">
+      <obj_property name="ElementShortName">dout[19:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider399">
+      <obj_property name="label">Layer 2 Register File</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer2/RegisterFile/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[19:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer2/RegisterFile/reg_file" type="array">
+      <obj_property name="ElementShortName">reg_file[0:14][19:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[0:14][19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer2/RegisterFile/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer2/RegisterFile/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[19:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer2/RegisterFile/ReadData3" type="array">
+      <obj_property name="ElementShortName">ReadData3[19:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData3[19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider400">
+      <obj_property name="label">Layer 2 ADDER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer2/ADDER/data1" type="array">
+      <obj_property name="ElementShortName">data1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer2/ADDER/data2" type="array">
+      <obj_property name="ElementShortName">data2[19:0]</obj_property>
+      <obj_property name="ObjectShortName">data2[19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer2/ADDER/data3" type="array">
+      <obj_property name="ElementShortName">data3[19:0]</obj_property>
+      <obj_property name="ObjectShortName">data3[19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer2/ADDER/out" type="array">
+      <obj_property name="ElementShortName">out[21:0]</obj_property>
+      <obj_property name="ObjectShortName">out[21:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider405">
+      <obj_property name="label">Layer 2 ReLU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer2/ReLU/d_in" type="array">
+      <obj_property name="ElementShortName">d_in[21:0]</obj_property>
+      <obj_property name="ObjectShortName">d_in[21:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Two_Layer/uut/Layer2/ReLU/d_out" type="array">
+      <obj_property name="ElementShortName">d_out[21:0]</obj_property>
+      <obj_property name="ObjectShortName">d_out[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

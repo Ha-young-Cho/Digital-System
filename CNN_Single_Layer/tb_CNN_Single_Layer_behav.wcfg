@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_CNN_Single_Layer_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_CNN_Single_Layer" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="148.801 ns"></ZoomEndTime>
+      <Cursor1Time time="213.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="214"></NameColumnWidth>
+      <ValueColumnWidth column_width="102"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject type="divider" fp_name="divider215">
+      <obj_property name="label">Testbench - Stimuli</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/Start" type="logic">
+      <obj_property name="ElementShortName">Start</obj_property>
+      <obj_property name="ObjectShortName">Start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/ReadEn" type="logic">
+      <obj_property name="ElementShortName">ReadEn</obj_property>
+      <obj_property name="ObjectShortName">ReadEn</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider217">
+      <obj_property name="label">Multiplicator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/Image" type="array">
+      <obj_property name="ElementShortName">Image[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Image[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/Filter" type="array">
+      <obj_property name="ElementShortName">Filter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Filter[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/MultValue" type="array">
+      <obj_property name="ElementShortName">MultValue[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MultValue[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider218">
+      <obj_property name="label">Register File - Write</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/RegisterFile/WriteEn" type="logic">
+      <obj_property name="ElementShortName">WriteEn</obj_property>
+      <obj_property name="ObjectShortName">WriteEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/RegisterFile/WriteReg" type="array">
+      <obj_property name="ElementShortName">WriteReg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteReg[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/RegisterFile/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/RegisterFile/reg_file" type="array">
+      <obj_property name="ElementShortName">reg_file[0:14][7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[0:14][7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider219">
+      <obj_property name="label">Register File - Read</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/RegisterFile/ReadEn" type="logic">
+      <obj_property name="ElementShortName">ReadEn</obj_property>
+      <obj_property name="ObjectShortName">ReadEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/RegisterFile/ReadReg1" type="array">
+      <obj_property name="ElementShortName">ReadReg1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadReg1[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/RegisterFile/ReadReg2" type="array">
+      <obj_property name="ElementShortName">ReadReg2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadReg2[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/RegisterFile/ReadReg3" type="array">
+      <obj_property name="ElementShortName">ReadReg3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadReg3[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/RegisterFile/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/RegisterFile/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/RegisterFile/ReadData3" type="array">
+      <obj_property name="ElementShortName">ReadData3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData3[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider20">
+      <obj_property name="label">ADDER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/ADDER/data1" type="array">
+      <obj_property name="ElementShortName">data1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/ADDER/data2" type="array">
+      <obj_property name="ElementShortName">data2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/ADDER/data3" type="array">
+      <obj_property name="ElementShortName">data3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data3[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/uut/ADDER/out" type="array">
+      <obj_property name="ElementShortName">out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">out[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider216">
+      <obj_property name="label">Testbench - Response</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_CNN_Single_Layer/ConvResult" type="array">
+      <obj_property name="ElementShortName">ConvResult[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ConvResult[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
