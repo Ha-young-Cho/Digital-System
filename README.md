@@ -5,4 +5,5 @@
 <img width="794" alt="image" src="https://github.com/Ha-young-Cho/Digital-System/assets/94751944/34d876cb-0296-43b1-a624-22ab0532dbf2">
 
 #### CNN_Single_Layer Schematic
-![image](https://github.com/Ha-young-Cho/Digital-System/assets/94751944/b87ac1b2-b991-440b-b3f5-4df753ed9364)
+<img width="845" alt="image" src="https://github.com/Ha-young-Cho/Digital-System/assets/94751944/cc53837f-39fd-42e3-887e-0e3181bfe2cf">
+
